@@ -1,7 +1,7 @@
 package prototype;
 
 /**
- * Created by domagoj on 10/15/16.
+ * Test prototype
  */
 public class TestPrototype {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ package prototype;
 import java.util.Hashtable;
 
 /**
- * Created by domagoj on 10/15/16.
+ * Concrete prototype
  */
 public class ShapeCache {
     private static Hashtable<String, Shape> shapeHashtable = new Hashtable<String,Shape>();

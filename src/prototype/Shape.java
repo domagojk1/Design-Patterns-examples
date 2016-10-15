@@ -3,7 +3,7 @@ package prototype;
 
 
 /**
- * Created by domagoj on 10/15/16.
+ * Concrete prototype
  */
 public abstract class Shape implements Cloneable {
     private String id;

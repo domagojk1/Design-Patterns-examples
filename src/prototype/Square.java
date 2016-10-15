@@ -1,7 +1,7 @@
 package prototype;
 
 /**
- * Created by domagoj on 10/15/16.
+ * Prototype
  */
 public class Square extends Shape {
     public Square() {
