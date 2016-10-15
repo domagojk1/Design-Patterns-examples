@@ -3,9 +3,9 @@ package factoryMethod;
 /**
  * Concrete creator
  */
-public class ConcreteCreator extends Creator {
+public class ConcreteCreator implements Creator {
     @Override
-    protected IConnection createConnection(String type) {
+    public IConnection createConnection(String type) {
         if (type.equalsIgnoreCase ("oracle")) {
             return new OracleConnection();
         }

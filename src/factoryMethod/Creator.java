@@ -3,6 +3,6 @@ package factoryMethod;
 /**
  * Creator
  */
-public abstract class Creator {
-    protected abstract IConnection createConnection (String type);
+public interface Creator {
+    public IConnection createConnection (String type);
 }
