@@ -1,7 +1,7 @@
-package Builder;
+package builder;
 
 /**
- * Created by domagoj on 10/15/16.
+ * Builder pattern implementation
  */
 public class Computer {
     private String hdd;
