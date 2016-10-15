@@ -3,6 +3,6 @@ package factoryMethod;
 /**
  * Product
  */
-public interface ConnectionProduct {
+public interface IConnection {
 
 }

@@ -6,6 +6,6 @@ package factoryMethod;
 public class TestFactoryMethod {
 
     public static void main (String[] args) {
-        ConnectionProduct connectionProduct = new ConcreteConnectionFactory().createConnection("sql");
+        IConnection connectionProduct = new ConcreteCreator().createConnection("sql");
     }
 }
